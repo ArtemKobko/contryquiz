@@ -133,8 +133,43 @@ body {
 		font-size: 35px;
 	}
 	img{
-		height: 200px;
+		height: 150px;
 		width: auto;
+	}
+}
+
+@media (max-width:600px) {
+	*{
+		box-sizing: content-box;
+	}
+	.quiz{
+		width: 400px;
+		height: 450px;
+		font-size: 18px;
+		padding: 20px 10px;
+	}
+	.quiz-list li {
+		font-size: 25px;
+	}
+	
+	.title{
+		font-size: 30px; 	
+	}
+	.quiz-submit {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 80px;
+		line-height: 80px;
+		font-size: 25px;
+	}
+	.quiz h4{
+		font-size: 25px;
+	}
+	img{
+		width: 150px;
+		height: auto;
 	}
 }
 @media (max-height:450px) {
@@ -170,7 +205,7 @@ body {
 	}
 	
 	img{
-		width: 100px;
+		width: 170px;
 		height: auto;
 	}
 }
